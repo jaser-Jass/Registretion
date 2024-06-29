@@ -1,3 +1,4 @@
+@charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap");
 * {
   margin: 0;
@@ -57,14 +58,51 @@ a {
 
 .formaRegistration {
   display: grid;
-  grid-template-columns: 350px 500px;
+  grid-template-columns: repeat(2, 1fr);
   grid-template-rows: repeat(1, 1fr);
   gap: 30px;
 }
 .formaRegistration__forma {
-  width: 350px;
+  width: 380px;
   height: 500px;
   border: 1px solid red;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.formaRegistration input[type=text] {
+  padding: 10px;
+  color: rgb(177, 177, 177);
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  width: 360px;
+  border: 1px solid rgb(164, 164, 164);
+}
+.formaRegistration input[type=password] {
+  padding: 10px;
+  color: rgb(177, 177, 177);
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  width: 360px;
+  border: 1px solid rgb(164, 164, 164);
+}
+.formaRegistration__radio {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  width: 17px;
+  height: 17px;
+  color: rgb(0, 0, 0);
+  font-family: Lato;
+  font-size: 11px;
+  font-weight: 300;
+  line-height: 13px;
+  letter-spacing: 0%;
+  text-align: left;
 }
 .formaRegistration__yourName {
   color: rgb(164, 164, 164);
@@ -75,8 +113,41 @@ a {
   line-height: normal;
   letter-spacing: 0%;
 }
+.formaRegistration__p {
+  color: rgb(177, 177, 177);
+  font-family: Lato;
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 16px;
+  letter-spacing: 0%;
+  text-align: left;
+}
+.formaRegistration__button {
+  width: 167px;
+  padding: 15px 38px 16px 39px;
+  background: rgb(241, 109, 127);
+  border-color: #F16D7F;
+  color: rgb(255, 255, 255);
+  position: relative;
+  box-sizing: border-box;
+  transition: all 500ms ease;
+  border: none;
+}
+.formaRegistration__button:hover {
+  background: rgba(0, 0, 0, 0);
+  color: #F16D7F;
+  box-shadow: inset 0 0 0 3px #F16D7F;
+  fill: #F16D7F;
+}
 .formaRegistration__LOYALTY-HAS-ITS-PERKS {
   width: 750px;
   height: 500px;
   border: 1px solid red;
+}
+
+.formaRegistration__LOYALTY-HAS-ITS-PERKS ul {
+  list-style: none;
+}
+.formaRegistration__LOYALTY-HAS-ITS-PERKS ul li:before {
+  content: "✓";
 }/*# sourceMappingURL=style.css.map */
