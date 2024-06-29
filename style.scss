@@ -10,6 +10,9 @@
 a {
     text-decoration: none;
 }
+.button {
+    cursor: pointer;
+}
 
 .center {
     padding-left: calc(50% - $widthSite / 2);
@@ -125,6 +128,7 @@ font-family: Lato;
                         text-align: left;
                 }
  &__button {
+    margin-top: 20px;
     width: 167px;
     padding: 15px 38px 16px 39px;
         background: rgb(241, 109, 127);
@@ -134,7 +138,7 @@ font-family: Lato;
         box-sizing: border-box;
         transition: all 500ms ease;
         border: none;
- }
+    }
  &__button:hover {
      background: rgba(0, 0, 0, 0);
      color: $colorSelectSite;
@@ -143,18 +147,54 @@ font-family: Lato;
  }
 
         &__LOYALTY-HAS-ITS-PERKS {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
                 width: 750px;
             height: 500px;
             border: 1px solid red;
+
         }
-}
-.formaRegistration__LOYALTY-HAS-ITS-PERKS {
-    ul {
-            list-style: none;
-        }
-    
-        ul li:before {
-            content: '✓';
-        }
+
+                                &__LOYALTY-HAS-ITS-PERKS h1 {
+                                    color: rgb(0, 0, 0);
+                                    font-family: Lato;
+                                    font-size: 24px;
+                                    font-weight: 300;
+                                    line-height: 29px;
+                                    letter-spacing: 0%;
+                                    text-align: left;
+                                }
+                                &__LOYALTY-HAS-ITS-PERKS p {
+color: rgb(0, 0, 0);
+    font-family: Lato;
+    font-size: 24px;
+    font-weight: 300;
+    line-height: 29px;
+    letter-spacing: 0%;
+    text-align: left;
+                                                                }
+
+                                &__LOYALTY-HAS-ITS-PERKS {
+                                    ul {
+                                        list-style: none;
+                                    }
+                
+                                
+                                }
+&__LOYALTY-HAS-ITS-PERKS ul {
+    color: rgb(0, 0, 0);
+        font-family: Lato;
+        font-size: 24px;
+        font-weight: 300;
+        line-height: 29px;
+        letter-spacing: 0%;
+        text-align: left;
 }
 
+}
+
+.li {
+    display: flex;
+    gap: 20px;
+}
