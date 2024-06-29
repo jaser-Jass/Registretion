@@ -36,6 +36,10 @@ a {
   gap: 25px;
 }
 
+.svg:hover {
+  fill: rgb(241, 109, 127);
+}
+
 .top-head {
   background-color: #F8F3F4;
   padding-top: 60px;
