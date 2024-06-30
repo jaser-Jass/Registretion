@@ -235,6 +235,7 @@ padding: 10px;
     }
 
     &__p {
+       
         color: rgb(177, 177, 177);
         font-family: Lato;
         font-size: 13px;
@@ -243,6 +244,7 @@ padding: 10px;
         letter-spacing: 0%;
         text-align: left;
     }
+    
 
     &__button {
         display: flex;
@@ -279,7 +281,7 @@ padding: 10px;
     }
 
     &__p {
-        width: 680px;
+        width: 380px;
     }
 
     &__LOYALTY-HAS-ITS-PERKS h1 {
