@@ -653,13 +653,61 @@ svg:hover {
     gap: 15px;
     justify-items: center;
   }
+  .formaRegistration__forma {
+    width: 375px;
+  }
   .formaRegistration__LOYALTY-HAS-ITS-PERKS {
     width: 450px;
   }
+  .surfer {
+    opacity: 0.5;
+    width: 100vw;
+    height: 100vw;
+    -o-object-fit: cover;
+       object-fit: cover;
+    -o-object-position: bottom;
+       object-position: bottom;
+  }
+  .basement-content {
+    position: absolute;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 150px;
+  }
+  .basementCard1 {
+    padding: 64px 20px 30px 10px;
+    max-width: 360px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .basementCard2 {
+    padding: 10px 8px 10px 8px;
+    max-width: 357px;
+    max-height: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  .emailBox {
+    border: none;
+    width: 200px;
+    height: 39px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    background-color: #E1E1E1;
+  }
+  .basementButton {
+    padding: 9px;
+  }
   .socialMediaContent {
     display: flex;
+    align-items: center;
     flex-direction: column-reverse;
-    gap: 30px;
+    gap: 20px;
   }
   .dropdown-content {
     right: 0;
