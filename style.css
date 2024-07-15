@@ -653,12 +653,13 @@ svg:hover {
     gap: 15px;
   }
   .formaRegistration__forma {
-    margin-left: 50px;
+    margin-left: 20px;
     width: 375px;
   }
   .formaRegistration__LOYALTY-HAS-ITS-PERKS {
-    margin-left: 50px;
+    margin-left: 20px;
     width: 375px;
+    margin-bottom: 50px;
   }
   .surfer {
     opacity: 0.5;
