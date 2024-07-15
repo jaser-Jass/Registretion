@@ -663,7 +663,7 @@ svg:hover {
   .surfer {
     opacity: 0.5;
     width: 100vw;
-    height: 100vw;
+    height: 150vw;
     -o-object-fit: cover;
        object-fit: cover;
     -o-object-position: bottom;
